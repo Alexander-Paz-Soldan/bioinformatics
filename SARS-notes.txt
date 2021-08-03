@@ -1,0 +1,27 @@
+
+In 2003 there was a SARS outbreak in China, SARS is named after its symptoms: Severe Acute Respiratory Syndrome. This virus belongs to a family of viruses called: "Coronaviruses" because virus particles resemble the sun's corona.
+This virus: as we now all know infects the respiratory tracts of mammals and birds.
+
+Coronaviruses, influenza viruses and HIV are RNA viruses they possess RNA instead of DNA
+RNA viruses can mutate more quickly due to the fact that RNA has higher replication error rates.
+
+The origins of the 2003 SARS-CoV were discovered by researching the 29,751 nucleotide genome
+Analysis of this problem was done by construction of evolutionary trees or phylogenies
+
+1. constructing distance matrix from coronavirus genomes
+- need sequence many coronaviruses from various species and determine similarity
+SARS-CoV had 6 genes one of them: the spike protein is where the virus binds to receptor cells on the host membrane. The Spike protein is 1255 amino acids long it has weak similarity with other Coronavirus Spike proteins. However alignment was possible. An n x n distance matrix D can be formed. Di,j represents the number of differing symbols between the genes representing rows i and j of the alignment.
+
+Distance Matrices must have certain properties.
+1. Symmetric for all i and j, Di,j = Dj,i
+2. non-negative for all i and j, Di,j >= 0
+3. Triangle inequality for all i,j and k Di,j + Dj,k <= Di,k
+
+you can prove that IF Di,j is equal to the number of differing symbols between rows i and j
+of a multiple alignment THEN D is symmetric, non-negative and satisfies the triangle inequality.
+
+Example                Chimp	Human	Seal	Whale
+Chimp   ACGTAGGCCT       0        3       6       4
+Human   ATGTAAGACT       3        0       7       5
+Seal    TCGAGAGCAC       6        7       0       2
+Whale   TCGAAAGCAT       4        5       2       0
