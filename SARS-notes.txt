@@ -20,7 +20,7 @@ Distance Matrices must have certain properties.
 you can prove that IF Di,j is equal to the number of differing symbols between rows i and j
 of a multiple alignment THEN D is symmetric, non-negative and satisfies the triangle inequality.
 
-Example                Chimp	Human	Seal	Whale
+Example                Chimp  	Human    	Seal    Whale
 Chimp   ACGTAGGCCT       0        3       6       4
 Human   ATGTAAGACT       3        0       7       5
 Seal    TCGAGAGCAC       6        7       0       2
